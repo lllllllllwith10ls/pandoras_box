@@ -14,7 +14,7 @@ new GenericThing("sulfuricAcidMolecule", "sulfuric acid", [{ object: "hydrogenAt
 new GenericThing("carbonDioxideMolecule", "carbon dioxide", [{ object: "oxygenAtom", amount: 1 }, { object: "carbonAtom", amount: 1 }, { object: "oxygenAtom", amount: 1 }]);
 new GenericThing("sulfurTrioxideMolecule", "sulfur trioxide", [{ object: "oxygenAtom", amount: 1 }, { object: "sulfurAtom", amount: 1 }, { object: "oxygenAtom", amount: 2 }]);
 new GenericThing("ammoniaMolecule", "ammonia", [{ object: "nitrogen", amount: 1 }, { object: "hydrogenAtom", amount: 3 }]);
-new GenericThing("hydrogenMolecule", "hydrogen molecule", [{ object: "hydrogen", amount: 2 }]);
+new GenericThing("hydrogenMolecule", "hydrogen molecule", [{ object: "hydrogenAtom", amount: 2 }]);
 new GenericThing("phosphate", "phosphate", [{ object: "phosphorusAtom", amount: 1 }, { object: "oxygenAtom", amount: 4 }]);
 
 
